@@ -3,7 +3,7 @@ import Data from "../Data"
 
 export default function Hero() {
     return (
-        <div>
+        <div className="p-4">
             {
                 Data.map((data) => (
                     <Card
