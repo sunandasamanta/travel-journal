@@ -3,9 +3,9 @@ import { MdLocationOn } from 'react-icons/md'
 export default function Card({ data }) {
     console.log(data);
     return (
-        <div className="flex sm:flex-wrap sm:justify-center gap-4 p-4" >
+        <div className="flex lg:w-1/2 sm:flex-wrap sm:justify-center gap-4 p-4" >
             <img className="rounded-xl max-w-[250px] aspect-[3/4] object-cover" src={data.image} alt="" />
-            <div className="grid place-content-center">
+            <div className="grid px-4 place-content-center ">
                 <p className="flex text-xl items-center">
                     <MdLocationOn className="text-[#F55A5A] text-xl" />
                     <span className="tracking-widest font-normal px-2 text-[#2B283A]">
