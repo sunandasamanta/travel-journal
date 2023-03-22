@@ -9,7 +9,7 @@ module.exports = {
       'poppins': ['Poppins', 'sans-serif']
     },
     screens: {
-      'xs': '300px',
+      'sm': {'max': '639px'},
       'md': '768px',
       'lg': '1024px'
     },
